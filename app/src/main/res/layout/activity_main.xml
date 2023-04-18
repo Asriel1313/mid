@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gawr_gura">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/purple_200"
+            android:id="@+id/txv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="姓名:黃順裕"
+            android:textSize="20sp"/>
+        <TextView
+            android:textColor="@color/purple_200"
+            android:id="@+id/txv2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="生日:2001/12/31"
+            android:textSize="20sp"/>
+        <TextView
+            android:textColor="@color/purple_200"
+            android:id="@+id/txv3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="星座:摩羯座"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="個人特質:內向，宅宅"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"/>
+    <TextView
+        android:textColor="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="興趣:跟朋友一起玩遊戲，包括但不限於電子遊戲，桌遊等等，閒暇時間也會看看虛擬Vtuber。"
+        android:textSize="20sp"
+        android:background="#ffffff"
+        android:alpha="0.6"/>
+    <TextView
+        android:textColor="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="個人簡介:我是一位喜歡玩遊戲跟看Vtuber的普通大學生，主要玩的遊戲有LOL，Apex，傳說等等。而Vtuber主要在看的是HololiveEN一期生Gwar Gura，她的外型是一隻小鯊魚，非常可愛。目前在努力學習程式語言中的C語言，目標是將來想成為一名駭客。"
+        android:textSize="20sp"
+        android:background="#ffffff"
+        android:alpha="0.6"/>
+
+
+
+</LinearLayout>
